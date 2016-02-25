@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		@*Include this CSS reference to add supporting classes for edit mode*@
+		<link href="/Assets/Styles/mvcEditor.css" rel="stylesheet" />
+	</head>
+	@*Add "class" attribute to turn edit mode styles on or off*@
+	<body class="@(Sitecore.Context.PageMode.IsExperienceEditorEditing ? "edit-mode" : string.Empty)">
+	</body>
+</html>

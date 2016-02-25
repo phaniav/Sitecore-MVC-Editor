@@ -1,0 +1,55 @@
+﻿body.edit-mode .component-wrapper {
+	border: 2px solid #EEE;
+	border-top: none;
+	box-sizing: border-box;
+	margin: 5px;
+	overflow: hidden;
+}
+
+	body.edit-mode .component-wrapper.scPlaceholder {
+		border: 2px solid #DC291E;
+		border-top: none;
+	}
+
+	body.edit-mode .component-wrapper.scRendering {
+		border: 2px solid #4D82B8;
+		border-top: none;
+	}
+
+	body.edit-mode .component-wrapper span.wrapper-header {
+		background-color: #EEE;
+		color: #111;
+		display: block;
+		font-size: 12px;
+		font-family: Arial, sans-serif;
+		height: 20px;
+		line-height: 20px;
+		padding: 0 10px;
+		text-align: left;
+	}
+
+	body.edit-mode .component-wrapper.scPlaceholder span.wrapper-header {
+		background-color: #DC291E;
+		color: White;
+	}
+
+	body.edit-mode .component-wrapper.scRendering span.wrapper-header {
+		background-color: #4D82B8;
+		color: White;
+	}
+
+	body.edit-mode .component-wrapper .component-content {
+		min-height: 20px;
+	}
+
+		body.edit-mode .component-wrapper .component-content .component-wrapper {
+			margin: 10px 0;
+		}
+
+body.edit-mode .mdl-container .mdl-locations-container .scEmptyImage {
+	display: none;
+}
+
+body.edit-mode .scLooseFrameZone.scEnabledChrome {
+	border: 2px solid #E08438;
+}
